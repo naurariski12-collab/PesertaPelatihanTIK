@@ -1,5 +1,5 @@
 body {
-  baground-color: #FFFFFE0; /* warna kuning cerah */
+  background-color: #FFFFE0; /* warna kuning cerah */
   font-family: Arial, Sans-serif; /* Jenis huruf yang bersih dan mudah dibaca */
   color: #191970; /*Warna teks utama (Biru Gelap) */
 }  
@@ -10,15 +10,15 @@ body {
     padding: 20px;
     baground-color: white;
     border-radius: 15px; /* Membuat sudut menjadi melengkung */
-    box-shadow: 0 4px 8px rgba(0,0,0,0,.1); /*Efek bayangan */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /*Efek bayangan */
 }
 
  
 .kartu-profil img {
-    width: 200px 
+    width: 200px; 
     border-radius: 50%; /* Trick untuk membuat gambar persegi menjadi lingkaran sempurna */
 }
-.kartu-profil {
+.kartu-profil { text-align: center; }
   /*... (kode dari slide sebelumnya) ... */
-  text-align: center; /*Menengahkan semua teks di dalam kartu */
+ /*Menengahkan semua teks di dalam kartu */
 }
